@@ -3,7 +3,7 @@ on: push
 jobs:
   super-lint:
     name: LINT THE CODE BASE
-    runs-on: ubuntu:latest
+    runs-on: ubuntu-latest
     steps:
       - name:   Checkout CODE
         uses: actions/checkout@v2
@@ -15,7 +15,7 @@ jobs:
   docker:
     name: Docker build and push
     needs: [super-lint]
-    runs-on: ubuntu:latest
+    runs-on: ubuntu-latest
     steps:
       -
         name: Set up QEMU
