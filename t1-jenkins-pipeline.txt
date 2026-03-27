@@ -1,0 +1,7 @@
+andre@Damjanovski MINGW64 ~/OneDrive/Desktop/Finki/kii/solutions/act-15-jenkins-github-gitlab-homework  
+$ nano Dockerfile
+
+andre@Damjanovski MINGW64 ~/OneDrive/Desktop/Finki/kii/solutions/act-15-jenkins-github-gitlab-homework  
+$ cat Dockerfile 
+FROM nginx
+COPY index.html /usr/share/nginx/html/index.html
